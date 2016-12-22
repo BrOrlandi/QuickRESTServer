@@ -1,0 +1,28 @@
+{
+  "name": "quick-rest-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrOrlandi/QuickRESTServer.git"
+  },
+  "keywords": [
+    "rest",
+    "server"
+  ],
+  "author": "Bruno Orlandi <brorlandi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BrOrlandi/QuickRESTServer/issues"
+  },
+  "homepage": "https://github.com/BrOrlandi/QuickRESTServer#readme",
+  "dependencies": {
+    "koa": "^1.2.4",
+    "koa-body": "^1.6.0"
+  }
+}
