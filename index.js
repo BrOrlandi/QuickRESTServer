@@ -8,6 +8,7 @@ app.use(function *(){
     console.log("Method: ",this.request.method);
     console.log("Query:\n", this.request.query,"\n");
     console.log("Body:\n",this.request.body);
+    console.log('\n==============\n');
 });
 
 app.listen(3000);
